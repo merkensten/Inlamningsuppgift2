@@ -15,11 +15,13 @@
   <body>
     <div class="site-container">
       <!-- Header -->
-      <header>
-        <img src="./images/Asgard-logo.svg" alt="Logo" />
-        <p>A cloud based community for you to connect with fellow Asgardians</p>
-        <div class="img-test">
-          <img class="img-offset" src="./images/flame-sign-in.png" alt="" />
+      <header class="header-container">
+        <div class="content-wrapper">
+          <img src="./images/Asgard-logo.svg" alt="Logo" class="logo"/>
+          <p>A cloud based community for you to connect with fellow Asgardians</p>
+          <div class="img-robot">
+            <img class="img-offset" src="./images/flame-sign-in.png" alt="" />
+          </div>
         </div>
       </header>
 
@@ -29,24 +31,24 @@
           <i class="bi bi-caret-down-fill"></i>
         </div>
 
-        <section class="signup-text">
+        <section class="signup-text content-wrapper">
           <div class="signup-text">
             <h1>Sign Up to Asgard</h1>
-            <p>Already have an account? <span>Log In</span></p>
+            <p class="light-gray-text">Already have an account? <span class="blue-span">Log In</span></p>
           </div>
 
           <div class="signup-with-socials">
             <div class="google">
-              <img src="./images/google.svg" alt="Google icon" />
+              <img class="google-icon" src="./images/google.svg" alt="Google icon" />
               <p>Sign Up With Google</p>
             </div>
 
-            <div class="facebook">
-              <img src="./images/facebook.svg" alt="Facebook icon" />
+            <div class="facebook icon-bg">
+              <img class="facebook-icon" src="./images/facebook.svg" alt="Facebook icon" />
             </div>
 
-            <div class="apple">
-              <img src="./images/apple.svg" alt="Apple icon" />
+            <div class="apple icon-bg">
+              <img class="apple-icon" src="./images/apple.svg" alt="Apple icon" />
             </div>
           </div>
 
@@ -55,17 +57,17 @@
           </div>
         </section>
 
-        <section class="signup-form">
+        <section class="signup-form content-wrapper">
           <form action="">
             <label for="">Full Name</label>
-            <input type="text" name="Full Name" id="fullname" />
+            <input class="input-field" type="text" name="Full Name" id="fullname" />
 
             <label for="">Email address</label>
-            <input type="email" name="email" id="email" />
+            <input class="input-field" type="email" name="email" id="email" />
 
             <label for="">Password</label>
-            <input type="password" name="password" id="password" />
-            <p>Password Strength</p>
+            <input class="input-field" type="password" name="password" id="password" />
+            <p class="password-p">Password Strength</p>
             <div class="borders">
               <span class="border border-green"></span>
               <span class="border border-green"></span>
@@ -79,7 +81,7 @@
                 By creating account, you agree to accept our
                 <span class="checkbox-span">Privacy Policy</span>,
                 <span class="checkbox-span">Terms of service</span> and
-                <span class="checkbox-span">Notification Settings</span>.
+                <span class="checkbox-span">Notification Settings</span>
               </p>
             </div>
 

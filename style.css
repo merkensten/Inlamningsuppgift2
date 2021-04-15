@@ -11,6 +11,7 @@
   --btn-color: #D7461F;
   --blue-color: #3F709C;
   --border-green-color: #70C99D;
+  --header-background-color: #FAF6F5;
 }
 
 *,
@@ -38,12 +39,12 @@ body {
 
 header {
     grid-column: 1 / 2;
-    background-color: aqua;
+    background-color: var(--header-background-color);
 }
 
 main {
     grid-column: 2 / 6;
-    background-color: palevioletred;
+    background-color: #fff;
 }
 
 h1 {

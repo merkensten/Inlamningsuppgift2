@@ -66,6 +66,12 @@ h1 {
     width: 100%;
   }
 
+  .img-test {
+    position: relative;
+    left: 30%;
+    margin-top: 100px;
+  }
+
   /* Animations */
 
 @keyframes name {

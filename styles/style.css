@@ -62,6 +62,10 @@ img {
     background-color: #da9a88;
   }
 
+  50% {
+    margin-top: 10px;
+  }
+
   100% {
     background-color: var(--btn-color);
   }
@@ -232,8 +236,10 @@ input[type="button"] {
   font-size: 14px;
   border-radius: 5px;
   animation-name: changeBtnColor;
-  animation-duration: 8s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
+  cursor: pointer;
+  backface-visibility: hidden;
 }
 
 /* Media Queries larger phones */

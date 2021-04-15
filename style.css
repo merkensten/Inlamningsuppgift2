@@ -1,0 +1,89 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Variables */
+:root {
+  --text-color: #1E2431;
+  --off-white-color: #F8F6F5;
+  --link-color: #579BD0;
+  --light-gray-color: #BAC1C8;
+  --dark-gray-color: #838B9A;
+  --btn-color: #D7461F;
+  --blue-color: #3F709C;
+  --border-green-color: #70C99D;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* Makes the root font size to 10px for default browsers */
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.site-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    min-height: 100vh;
+}
+
+header {
+    grid-column: 1 / 2;
+    background-color: aqua;
+}
+
+main {
+    grid-column: 2 / 6;
+    background-color: palevioletred;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    margin: 0;
+    word-wrap: break-word;
+  }
+  
+  p {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    padding: 10px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /* Animations */
+
+@keyframes name {
+}
+
+/* Media Queries Smaller tablets */
+
+@media (min-width: 576px) {
+   
+  }
+  
+  /* Media Queries bigger tablets */
+  
+@media (min-width: 768px) {
+    
+  
+  }
+  
+  /* Media Queries desktop */
+@media (min-width: 992px) {
+    
+  }

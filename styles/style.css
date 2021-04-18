@@ -51,6 +51,10 @@ img {
   width: 100%;
 }
 
+span, .google, .apple, .facebook {
+  cursor: pointer;
+}
+
 .content-wrapper {
   padding: 0 20px;
 }

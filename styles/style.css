@@ -122,8 +122,10 @@ header p {
 .google {
   display: flex;
   border: 1px solid var(--light-gray-color);
-  padding: 0 10px;
   border-radius: 5px;
+  width: 100%;
+  justify-content: center;
+  
 }
 
 .google p {
@@ -257,6 +259,10 @@ input[type="button"] {
 
   header {
     margin-bottom: 150px;
+  }
+
+  .google {
+    padding: 0 10px;
   }
 }
 /* Media Queries Smaller tablets */

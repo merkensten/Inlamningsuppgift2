@@ -9,6 +9,7 @@
   --light-gray-color: #bac1c8;
   --dark-gray-color: #838b9a;
   --btn-color: #d7461f;
+  --btn-color-hover: #f84210;
   --blue-color: #3f709c;
   --border-green-color: #70c99d;
   --header-background-color: #faf6f5;
@@ -246,6 +247,12 @@ input[type="button"] {
   animation-timing-function: ease-in-out;
   cursor: pointer;
   backface-visibility: hidden;
+}
+
+input[type="button"]:hover {
+  background-color: var(--btn-color-hover);
+  transform: scale(1.02);
+  transition: 0.4s ease-in-out;
 }
 
 /* Media Queries larger phones */
